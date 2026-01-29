@@ -1,10 +1,6 @@
 # Atividades 
 
 1-
-/**
- * You can edit, run, and share this code.
- * play.kotlinlang.org
- */
 
 fun main() {
     
@@ -17,10 +13,7 @@ fun main() {
 }
 
 2- 
-/**
- * You can edit, run, and share this code.
- * play.kotlinlang.org
- */
+
 
 fun main() {
     
@@ -30,4 +23,17 @@ fun main() {
     var celsius = (entrada_Fahrenheit - 32) * 5 / 9.0
     
     print(celsius)
+}
+
+3-
+
+fun main() {
+    
+    var raio_base = 5
+    var altura = 10
+    
+    // V = π * raio^2 * altura
+    var Volume = Math.PI * raio_base* raio_base * altura
+    
+    print(Volume)
 }
