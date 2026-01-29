@@ -64,3 +64,23 @@ fun main() {
     
     print(Valor)
 }
+
+7- 
+
+
+fun main() {
+    
+    var variavel_1 = 1
+    var variavel_2 = 2
+    var variavel_3 = 3
+    var variavel_4 = 4
+    
+    
+    var adição = (variavel_1 + variavel_2 + variavel_3 + variavel_4)
+    
+    var multiplicação = (variavel_1 * variavel_2 * variavel_3 * variavel_4)
+    
+    println(adição)
+    
+    println(multiplicação)
+}
