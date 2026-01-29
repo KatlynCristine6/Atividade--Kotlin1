@@ -48,9 +48,8 @@ fun main() {
     // litros = distância / consumo
     var litros = distância_percorrida / consumo_veículo 
     
-    print(litros)
+    println(" A quantidade de combustível gasta na viagem é de: $litros")
 }
-
 5-
 
 fun main() {
