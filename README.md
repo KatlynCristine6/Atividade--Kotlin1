@@ -50,3 +50,17 @@ fun main() {
     
     print(litros)
 }
+
+5-
+
+fun main() {
+    
+    var valor_original_prestação = 1500
+    var número_meses_atraso = 5
+    var taxa_juros_mensal = 1.0
+    
+    // valor = valor_original * (1 + (taxa_juros / 100) * meses_atraso)
+    var Valor = valor_original_prestação * (1 + (taxa_juros_mensal / 100) * número_meses_atraso)
+    
+    print(Valor)
+}
