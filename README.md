@@ -83,3 +83,17 @@ fun main() {
     
     println("O resultado da multiplicação é: $multiplicação")
 }
+
+8- 
+
+fun main() {
+    
+    var valor_comprimento_caixa = 5
+    var valor_largura_caixa = 3
+    var valor_altura_caixa = 2
+    
+    //volume = comprimento * largura * altura
+    var volume = valor_comprimento_caixa * valor_largura_caixa * valor_altura_caixa
+    
+    print(volume)
+}
