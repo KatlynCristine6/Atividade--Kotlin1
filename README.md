@@ -37,3 +37,16 @@ fun main() {
     
     print(Volume)
 }
+
+4-
+
+fun main() {
+    
+    var distância_percorrida = 240
+    var consumo_veículo = 12
+    
+    // litros = distância / consumo
+    var litros = distância_percorrida / consumo_veículo 
+    
+    print(litros)
+}
