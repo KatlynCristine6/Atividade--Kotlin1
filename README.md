@@ -97,3 +97,15 @@ fun main() {
     
     print(volume)
 }
+
+9- 
+
+fun main() {
+    
+    var entrada_valor_numerico = -3
+    
+    // o quadrado do número lido
+    var saída = entrada_valor_numerico * entrada_valor_numerico
+    
+    print(saída)
+}
