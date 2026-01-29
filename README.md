@@ -62,7 +62,7 @@ fun main() {
     // valor = valor_original * (1 + (taxa_juros / 100) * meses_atraso)
     var Valor = valor_original_prestação * (1 + (taxa_juros_mensal / 100) * número_meses_atraso)
     
-    print(Valor)
+    println("O valor da prestação em atraso é de: $Valor")
 }
 
 7- 
@@ -80,7 +80,7 @@ fun main() {
     
     var multiplicação = (variavel_1 * variavel_2 * variavel_3 * variavel_4)
     
-    println(adição)
+    println("O resultado da adição é: $adição")
     
-    println(multiplicação)
+    println("O resultado da multiplicação é: $multiplicação")
 }
