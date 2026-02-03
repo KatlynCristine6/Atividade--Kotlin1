@@ -50,6 +50,7 @@ fun main() {
     
     println(" A quantidade de combustível gasta na viagem é de: $litros")
 }
+
 5-
 
 fun main() {
