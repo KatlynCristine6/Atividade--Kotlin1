@@ -1,3 +1,4 @@
+
 # Atividades 
 
 1-
@@ -142,5 +143,17 @@ fun main() {
 }
 
 12- 
+
+fun main() {
+    
+    var valor_real = 100
+    
+    var valor_dólar = (valor_real / 5.60)
+    
+    
+    print(valor_dólar)
+    println(" valor em dólar, considerando a cotação de 5.60")
+
+}
 
 
