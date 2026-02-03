@@ -270,3 +270,28 @@ fun main() {
     println("Percentual de votos nulos = %.2f%%".format(percentual_nulos))
     println("Percentual de votos em branco = %.2f%%".format(percentual_branco))
 }
+
+19-
+
+fun main() {
+    
+    var valor_1 = 10
+    var valor_2 = 5
+    
+    
+    var adição = (valor_1 + valor_2)
+    
+    println("Adição: $valor_1 + $valor_2 = ${valor_1 + valor_2}")
+    
+    var subtração = (valor_1 - valor_2)
+    
+    println("subtração: $valor_1 - $valor_2 = ${valor_1 - valor_2}")
+    
+    var multiplicação = (valor_1 * valor_2)
+    
+    println("multiplicação: $valor_1 * $valor_2 = ${valor_1 * valor_2}")
+    
+    var divisão = (valor_1 / valor_2)
+    
+    println("divisão: $valor_1 / $valor_2 = ${valor_1 / valor_2}");
+}
