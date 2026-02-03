@@ -156,4 +156,20 @@ fun main() {
 
 }
 
+13-
 
+
+fun main() {
+    
+    var valor_númerico1 = 1
+    var valor_númerico2 = 5
+    var valor_númerico3 = 6
+    
+    var soma_dos_quadrados = (valor_númerico1 * valor_númerico1) + (valor_númerico2 * valor_númerico2)  + (valor_númerico3 * valor_númerico3)
+    
+
+    print(soma_dos_quadrados)
+  
+
+    
+}
