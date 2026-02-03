@@ -192,3 +192,21 @@ fun main() {
 
     
 }
+
+15-
+
+fun main() {
+    
+    var valor_1 = 2
+    var valor_2 = 3
+    var valor_3 = 4
+    var valor_4 = 5
+    
+    var produto = (valor_1 * valor_3)
+    
+    var soma = (valor_2 + valor_4)
+    
+
+    println("Produto é igual: $produto, Soma é igual: $soma")
+   
+}
