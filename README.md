@@ -109,3 +109,20 @@ fun main() {
     
     print(saída)
 }
+
+10 - 
+
+fun main() {
+    
+    var valor_numerico1 = -3
+    var valor_numerico2 = 8
+   
+    
+    var subtração = (valor_numerico1 - valor_numerico2)
+    
+    
+    println("O resultado da subtração é: $subtração")
+    
+}
+
+
