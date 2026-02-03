@@ -13,7 +13,7 @@ fun main() {
     print(F)
 }
 
-2- kkkkkkkkkkkkkk
+2- 
 
 
 fun main() {
