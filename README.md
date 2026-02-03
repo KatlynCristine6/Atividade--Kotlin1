@@ -241,3 +241,32 @@ fun main() {
     print(area)
     println("(área calculada)")
 }
+
+18- 
+
+fun main() {
+    
+    var candidato_1 = 200
+    var candidato_2 = 150
+    var candidato_3 = 100
+    var votos_nulos = 50
+    var votos_em_branco = 30
+    
+    
+    var total_eleitores = candidato_1 + candidato_2 + candidato_3 + votos_nulos + votos_em_branco
+    
+    println("O total de eleitores é de: $total_eleitores")
+    
+    println("Percentual de votos válidos:")
+    var percentual_candidato1 = (candidato_1 * 100.0) / total_eleitores
+    var percentual_candidato2 = ( candidato_2 * 100.0) / total_eleitores
+    var percentual_candidato3 = ( candidato_3 * 100.0) / total_eleitores
+    var percentual_nulos = (votos_nulos * 100.0) / total_eleitores
+    var percentual_branco = (votos_em_branco * 100.0) / total_eleitores
+    
+    println("candidato 1 = %.2f%%".format(percentual_candidato1))
+    println("candidato 2 = %.2f%%".format(percentual_candidato2))
+    println("candidato 3 = %.2f%%".format(percentual_candidato3))
+    println("Percentual de votos nulos = %.2f%%".format(percentual_nulos))
+    println("Percentual de votos em branco = %.2f%%".format(percentual_branco))
+}
