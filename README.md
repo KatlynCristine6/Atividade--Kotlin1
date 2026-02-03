@@ -227,3 +227,17 @@ fun main() {
     print(novo_salario)
    
 }
+
+17-
+
+
+fun main() {
+    
+    var raio_circunferência = 5
+    
+    // Calcule a área da circunferência usando a fórmula
+    var area = 3.141 * raio_circunferência * raio_circunferência
+
+    print(area)
+    println("(área calculada)")
+}
