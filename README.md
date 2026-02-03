@@ -173,3 +173,22 @@ fun main() {
 
     
 }
+
+14-
+
+fun main() {
+    
+    var valor_númerico1 = 2
+    var valor_númerico2 = 3
+    var valor_númerico3 = 4
+    
+    var soma_dos_valores = (valor_númerico1 + valor_númerico2 + valor_númerico3)
+    
+    var resultado = (soma_dos_valores * soma_dos_valores)
+    
+
+    print(resultado)
+  
+
+    
+}
