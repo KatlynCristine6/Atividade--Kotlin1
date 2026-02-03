@@ -210,3 +210,20 @@ fun main() {
     println("Produto é igual: $produto, Soma é igual: $soma")
    
 }
+
+16-
+
+fun main() {
+    
+    var salario_mensal = 1000.0
+    var porcentagem_aumento = 10.0
+    
+    // Calcule o valor do aumento usando a fórmula
+    var aumento = salario_mensal * (porcentagem_aumento / 100)
+    
+    var novo_salario = (salario_mensal + aumento)
+    
+
+    print(novo_salario)
+   
+}
