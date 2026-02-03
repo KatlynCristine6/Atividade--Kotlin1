@@ -111,7 +111,7 @@ fun main() {
     print(saída)
 }
 
-10 - 
+10- 
 
 fun main() {
     
@@ -125,5 +125,22 @@ fun main() {
     println("O resultado da subtração é: $subtração")
     
 }
+
+11-
+
+fun main() {
+    
+    var valor_dólar = 50
+    
+    var valor_real = (valor_dólar * 5.60)
+    
+    
+    print(valor_real)
+    println(" valor em real, considerando a cotação de 5.60")
+
+    
+}
+
+12- 
 
 
