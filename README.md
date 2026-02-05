@@ -75,7 +75,7 @@ fun main() {
     a = b
     b = troca
     print( "Após a troca - a = $a, b = $b")
-   
+
 }
 
 7- 
