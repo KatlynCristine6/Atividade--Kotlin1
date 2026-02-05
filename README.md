@@ -296,6 +296,20 @@ fun main() {
     println("divisão: $valor_1 / $valor_2 = ${valor_1 / valor_2}");
 }
 
+20-
+
+fun main() {
+    
+    val distancia = 100.0
+    val tempo = 2.0
+   
+    val velocidade = distancia / tempo / 3.6
+   
+    println(velocidade)
+
+}
+
+
 22-
 
 fun main() {
