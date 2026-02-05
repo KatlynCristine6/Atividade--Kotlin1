@@ -310,6 +310,22 @@ fun main() {
 
 }
 
+25-
+
+fun main() {
+    
+    var valor = -3
+    
+    //Calcule o sucessor e o antecessor do número
+    var sucessor = valor + 1
+    
+    var antecessor = valor -1
+    
+    
+    println("sucessor: $sucessor,  antecessor:  $antecessor")
+
+}
+
 26-
 
 fun main() {
