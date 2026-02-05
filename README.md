@@ -329,6 +329,7 @@ fun main() {
 26-
 
 fun main() {
+
     var valor_númerico1 = 10
     var valor_númerico2 = 2
     
