@@ -400,3 +400,20 @@ fun main() {
     println ("($valor_númerico1 / $valor_númerico2 = $resultado_divisão, $resultado_divisão * $resultado_divisão = $resultado_quadrado)")
 
 }
+
+29-
+
+fun main() {
+    val nota1 = 7
+    val nota2 = 6
+    val nota3 = 4
+    val nota4 = 5
+
+    val media = (nota1 + nota2 + nota3 + nota4) / 4.0
+
+    if (media >= 5) {
+        println("Média: $media, aprovada")
+    } else {
+        println("Média: $media, reprovada")
+    }
+}
