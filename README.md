@@ -401,6 +401,20 @@ fun main() {
 
 }
 
+28-
+
+fun main() {
+    val numero = -5
+
+    if (numero > 0) {
+        println("O número é positivo")
+    } else if (numero < 0) {
+        println("O número é negativo")
+    } else {
+        println("O número é neutro (zero)")
+    }
+}
+
 29-
 
 fun main() {
