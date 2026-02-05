@@ -295,3 +295,20 @@ fun main() {
     
     println("divisão: $valor_1 / $valor_2 = ${valor_1 / valor_2}");
 }
+
+26-
+
+fun main() {
+    var valor_númerico1 = 10
+    var valor_númerico2 = 2
+    
+    //Calcule a divisão do primeiro número pelo segundo número.
+    var resultado_divisão = valor_númerico1 / valor_númerico2 
+    
+    //Calcule o quadrado do resultado da divisão.
+    var resultado_quadrado = resultado_divisão * resultado_divisão
+    
+    print(resultado_quadrado)
+    println ("($valor_númerico1 / $valor_númerico2 = $resultado_divisão, $resultado_divisão * $resultado_divisão = $resultado_quadrado)")
+
+}
