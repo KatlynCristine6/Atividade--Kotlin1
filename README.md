@@ -433,3 +433,15 @@ fun main() {
         println("Média: $media, reprovada")
     }
 }
+
+32- 
+
+fun main() {
+    val a = 5
+    val b = 2
+    val c = 7
+
+    val numeros = listOf(a, b, c).sorted()
+
+    println(numeros.joinToString(" "))
+}
