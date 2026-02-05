@@ -404,6 +404,7 @@ fun main() {
 28-
 
 fun main() {
+
     val numero = -5
 
     if (numero > 0) {
@@ -418,6 +419,7 @@ fun main() {
 29-
 
 fun main() {
+
     val nota1 = 7
     val nota2 = 6
     val nota3 = 4
