@@ -296,6 +296,19 @@ fun main() {
     println("divisão: $valor_1 / $valor_2 = ${valor_1 / valor_2}");
 }
 
+22-
+
+fun main() {
+    
+    val raio = 5.0
+   
+    val resultado = (4.0/3.0) * Math.PI * (raio * raio * raio)
+   
+    print(resultado)
+    println("(volume da esfera)")
+
+}
+
 23-
 
 fun main() {
