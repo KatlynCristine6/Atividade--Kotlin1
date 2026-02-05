@@ -66,6 +66,18 @@ fun main() {
     println("O valor da prestação em atraso é de: $Valor")
 }
 
+6- 
+
+fun main() {
+    var a = 4
+    var b = 5
+    var troca = a
+    a = b
+    b = troca
+    print( "Após a troca - a = $a, b = $b")
+   
+}
+
 7- 
 
 
