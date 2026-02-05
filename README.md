@@ -309,6 +309,24 @@ fun main() {
 
 }
 
+21-
+
+fun main() {
+
+    val valorBase = 2
+    val valorExpoente = 3
+
+    var potencia = 1
+
+    for (i in 1..valorExpoente) {
+        potencia *= valorBase
+    }
+
+    print(potencia)
+   
+}
+
+
 
 22-
 
