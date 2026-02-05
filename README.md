@@ -296,6 +296,20 @@ fun main() {
     println("divisão: $valor_1 / $valor_2 = ${valor_1 / valor_2}");
 }
 
+23-
+
+fun main() {
+    
+    var medida_pés = 10
+    
+    //Converta a medida de pés para metros usando a fórmula: metros = pés * 0.3048.
+    var metros = medida_pés * 0.3048
+    
+    print(metros)
+    println("(medida equivalente em metros)")
+
+}
+
 26-
 
 fun main() {
